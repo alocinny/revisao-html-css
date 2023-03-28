@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de HTML e CSS</title>
+   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"> <!--AQUI EU ADICIONEI O FAVICON COM A TAG <link> + PARÂMETROS href E type-->
+   <style>
+    h1 { 
+        font-family: cursive;
+        font-size: xx-large;
+        color:rgb(48, 48, 108)
+    }
+    h2 {
+        font-family: monospace;
+        font-size: xx-large;
+        color: rgb(51, 123, 99);
+    }
+    h3 {
+        font-family: monospace;
+        font-size: x-large;
+        color: rgb(71, 194, 153);
+    }
+    p {
+        font-family: arial;
+        font-size: 12pts;
+        color: rgb(22, 15, 94);
+    }
+    hr {
+        border-color: rgb(255, 0, 255);
+    }
+    mark {
+        background-color: rgba(255, 0, 0, 0.459);
+    }
+    blockquote {
+        background-color: aliceblue; 
+    }
+    abbr {
+        color: red;
+    }
+   </style>
+   <!--AQUI SÓ TESTEI MEUS CONHECIMENTOS BÁSICOS DE CSS-->
+</head>
+
+<body>
+<h1>BÁSICO DE HTML E CSS</h1>
+<hr>
+<h2>PARÁGRAFO</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex minima dolorum laborum ab aperiam animi quaerat cum veniam nulla, officia id consequuntur aliquid quia odit fuga magnam reiciendis similique.</p> <!--AQUI ADICIONEI UM PARÁGRAFO SIMPLES COM A TAG <p>-->
+<h3>QUEBRA DE PARÁGRAFO</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Fugit alias repellat vero laboriosam assumenda beatae obcaecati iusto incidunt provident est voluptatibus consequatur cumque voluptatum, iste dolore amet ipsum nesciunt quo!</p> <!--AQUI QUEBREI UM PARÁGRAFO SIMPLES USANDO A TAG <br>-->
+<h2>IMAGEM</h2>
+<p>
+    <img src="imagens/imagem estudo 200.png" alt="nessa imagem temos dois livros abertos em cima de uma mesa">
+</p>
+<p><img src="imagens/imagem computador 200.png" alt="nessa imagem temos um notebook aberto em uma mesa de madeira"></p>
+</body> <!--AQUI EU COLOQUEI DUAS IMAGENS USANDO A TAG <img> E PARÂMETROS src="" e alt=""-->
+<h2>LISTAS</h2>
+<h3>LISTAS ORDENADAS</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae modi, nemo illo, non aliquam accusantium ad veritatis necessitatibus odit atque esse adipisci laborum voluptas quidem? Ratione ad sunt aliquam dicta.</p>
+<ol type="1">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <ol type="I">
+        <li>Item 2.1</li>
+        <ol type="i">
+            <li>Item 2.1.1</li>
+            <li>Item 2.1.2</li>
+        </ol>
+        <li>Item2.2</li>
+    </ol>
+</ol>
+<ol type="A">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <ol type="a">
+        <li>Item 2.1</li>
+        <li>Item 2.2</li>
+    </ol>
+</ol>
+<!--AQUI ADICIONEI LISTAS ORDENADAS COM A TAG <ol> E PARÂMETROS type=""-->
+<h3>LISTAS NÃO ORDENADAS</h3>
+<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam ullam non quo delectus illo laborum sapiente iste quasi optio, deleniti aspernatur saepe veritatis id tempore exercitationem nobis dignissimos ipsam cum?</P>
+<ul type="square">
+    <li>Item 1</li>
+</ul>
+<ul type="circle">
+    <li>Item 1</li>
+</ul>
+<ul type="disc">
+    <li>Item 1</li>
+    <ul type="square">
+        <li>Item 1.1</li>
+    </ul>
+</ul>
+<!--AQUI ADICIONEI LISTAS NÃO ORDENADAS COM A TAG <ul> E PARÂMETROS type=""-->
+<h3>LISTAS ORDENADAS E NÃO ORDENADAS</h3>
+<ol type="1">
+    <li>Item 1</li>
+    <ol type="I">
+        <li>Item 1.1</li>
+        <ol type="i">
+            <li>Item 1.1.1</li>
+            <ul type="circle">
+                <li>Item</li>
+            </ul>
+        </ol>
+    </ol>
+</ol>
+<!--AQUI ADICIONEI LISTAS ORDENADAS (<ol>) E NÃO ORDENADAS (<ul>)-->
+<h2>NEGRITO</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Enim vero veniam natus reiciendis fugit</strong>, ducimus itaque minus? Possimus quae, <strong>earum</strong> temporibus consequatur qui consequuntur. Consequatur numquam rerum omnis est ea!</p>
+<h2>ÊNFASE</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime, <em>consequuntur reiciendis ipsa beatae veritatis recusandae minus</em>! Aut vitae cum excepturi, <em>odit beatae</em>, natus rem cupiditate eligendi dolorum a quaerat?</p>
+<h2>MARCA TEXTO</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo numquam sunt <mark>quisquam</mark> a voluptatibus perspiciatis distinctio ipsam eligendi inventore beatae <mark>voluptate quis</mark>, dicta odio quo at explicabo assumenda? At, dolorum?</p>
+<h2>TEXTO PEQUENO</h2>
+<p><small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi vitae, omnis cumque doloribus, ipsam explicabo recusandae nihil accusantium inventore nulla commodi sapiente? Perferendis, natus porro? Necessitatibus explicabo laudantium exercitationem? Minima!</small></p>
+<h2>TEXTO RISCADO</h2>
+<p><del>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed assumenda voluptates consequuntur deleniti vero rem nulla. Error eos aliquam voluptates animi optio consequatur culpa, necessitatibus, non expedita, omnis quis et.</del></p>
+<h2>TEXTO SUBLINHADO</h2>
+<p><ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tempora, cumque rem dignissimos praesentium vel eos culpa ea minima, quos velit, nulla corrupti explicabo illum accusamus maiores. Odit, dolorum quis!</ins></p>
+<h2>TEXTO SUBSCRITO</h2>
+<p>H<sub>2</sub>O</p>
+<h2>TEXTO SOBRESCRITO</h2>
+<p>X<sup>22</sup></p>
+<h2>CODE</h2>
+
+ <code>
+     <pre>
+         #include &ltiostream&gt
+            using namespace std;
+         
+            int main()
+             {
+             cout &lt&lt "Hello World!" &lt&lt endl;
+             system("pause");
+             return 0;
+                }
+     </pre>
+ </code>
+<h2>CITAÇÃO</h2>
+<h3>CITAÇÃO NORMAL</h3>
+<p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, harum modi eum enim iusto similique soluta? Atque amet id consectetur saepe dolor aspernatur magni reprehenderit dolorem quasi qui, quam laborum?</q></p>
+<h3>CITAÇÃO EM BLOCOS</h3>
+<p><blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aspernatur illo ad rem dolores maiores praesentium harum voluptates, sunt quibusdam animi odit dolor dolorum vel debitis eum exercitationem voluptate numquam.</blockquote></p>
+<h3>DEFINIÇÃO</h3>
+<p><abbr title="As Know As">AKA</abbr></p>
+<h2>ESPELHAR TEXTO</h2>
+<bdo dir="rtl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis deserunt harum, possimus magnam explicabo ipsam veritatis id? Nostrum perferendis officiis provident sequi ex! Corporis at veniam nobis accusantium minus nulla?</bdo>
+</body>
+</html>
